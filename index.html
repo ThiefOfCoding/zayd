@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Code Driven Animation</title>
+</head>
+<body>
+    <div class="pov">
+        <div class="tray">
+            <div class="die">
+                <div class="cube">
+                    <div class="face neon-text" style="font-size:60px">CODE</div>
+                    <div class="face neon-text" style="font-size:58px">DRIVEN</div>
+                    <div class="face neon-text" style="font-size:55px">ANIMATION</div>      
+                </div>
+            </div>  
+            <!-- clones will go here -->
+        </div>
+    </div>
+
+    <div class="buttons">
+        <button id="open-video" class="glass-button">Open Video</button>
+        <div class="links">
+            <a href="https://xat.com/gfx" target="_blank" class="link-button">GFX</a>
+            <span class="link-separator">|</span>
+            <a href="https://xat.com/help" target="_blank" class="link-button">HELP</a>
+        </div>
+    </div>
+
+    <div id="video-container" class="video-container hidden">
+        <button id="close-video" class="close-button">Back</button>
+        <iframe width="400" height="300" src="https://www.youtube.com/embed/2ZOAzbH8tdU" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
